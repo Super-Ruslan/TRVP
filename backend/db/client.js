@@ -12,8 +12,8 @@ export default class DB {
         this.#dbHost = 'localhost';
         this.#dbPort = '5432';
         this.#dbName = 'tolley_park';
-        this.#dbLogin = 'manager';
-        this.#dbPassword = 'manager';
+        this.#dbLogin = 'dispatcher';
+        this.#dbPassword = 'dispatcher';
 
         this.#dbClient = new pg.Client({
             user: this.#dbLogin,
