@@ -11,7 +11,7 @@ export default class DB {
     constructor(){
         this.#dbHost = 'localhost';
         this.#dbPort = '5432';
-        this.#dbName = 'tolley_park';
+        this.#dbName = 'autopark';
         this.#dbLogin = 'dispatcher';
         this.#dbPassword = 'dispatcher';
 
